@@ -1866,7 +1866,7 @@ input::-moz-focus-inner {
   background-color: #02182c;
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url(/images/jayesh\ image.jpg);
+  background-image: url(../images/jayesh_image_opt.jpg);
   background-size: cover;
   border-top-left-radius: 25px;
   border-top-right-radius: 20px;
@@ -3243,10 +3243,12 @@ input::-moz-focus-inner {
 
 .contact-email {
   font-family: "Roboto", sans-serif;
-  font-size: 11.2rem;
+  font-size: clamp(2.4rem, 5.5vw, 9rem);
   font-weight: 400;
-  line-height: 1;
-  margin: 5.6rem 0 8rem;
+  line-height: 1.1;
+  margin: 3rem 0 4rem;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .contact-infos {
@@ -3312,10 +3314,6 @@ input::-moz-focus-inner {
 * contact
 * ------------------------------------------------------------------- */
 @media screen and (max-width:1300px) {
-  .contact-email {
-    font-size: 10rem;
-  }
-
   .contact-infos {
     font-size: 4rem;
   }
@@ -3327,10 +3325,6 @@ input::-moz-focus-inner {
 }
 
 @media screen and (max-width:1200px) {
-  .contact-email {
-    font-size: 9rem;
-  }
-
   .contact-infos {
     margin-top: 9.6rem;
   }
@@ -3338,10 +3332,6 @@ input::-moz-focus-inner {
 }
 
 @media screen and (max-width:1024px) {
-  .contact-email {
-    font-size: 7.2rem;
-  }
-
   .contact-infos {
     font-size: 3.8rem;
   }
@@ -3355,10 +3345,6 @@ input::-moz-focus-inner {
 @media screen and (max-width:800px) {
   .s-contact {
     padding-top: 16rem;
-  }
-
-  .contact-email {
-    font-size: 9vw;
   }
 
   .contact-infos {

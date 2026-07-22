@@ -13,6 +13,10 @@
     ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="css/base.css">
@@ -21,8 +25,8 @@
 
     <!-- script
     ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
+    <script src="js/modernizr.js" defer></script>
+    <script src="js/pace.min.js" defer></script>
 
     <!-- favicons
     ================================================== -->
@@ -42,8 +46,8 @@
     <header class="s-header">
 
         <div class="header-logo">
-            <a class="site-logo" href="index.html">
-                <img src="/images/sinsier avtar.png" alt="Homepage">
+            <a class="site-logo" href="index.html" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+                <img src="/images/jayesh_logo_opt.jpg" alt="Jayesh J. Pandey Logo" style="max-height: 48px; border-radius: 50%; box-shadow: 0 0 10px rgba(207, 23, 103, 0.4);">
             </a>
         </div>
 
@@ -78,7 +82,7 @@
             <div class="column large-9 mob-full intro-text">
                 <h3>Hello, I'm Jayesh J. Pandey</h3>
                 <h1>
-                    AI/ML Engineer<br>
+                    Data Analytics & ML<br>
                     Space Technology<br>
                     Enthusiast<br>
                 </h1>
@@ -113,20 +117,19 @@
             <div class="row about-me__content" data-aos="fade-up">
                 <div class="column large-full about-me__text">
                     <p class="lead">
-                        Computer Engineering student and <strong>NASA Space Apps Challenge 2025 Global Winner</strong> specializing in AI/ML, space technology, and geospatial intelligence. Proficient in PyTorch, full-stack development, and deploying scalable deep learning solutions for remote sensing, medical imaging, and computer vision.
+                        <strong>NASA Space Apps Global Winner</strong> and Computer Engineering Senior (GPA 8.70) specializing in Data Analytics, Exploratory Data Analysis (EDA), SQL database modeling, and statistical satellite signal processing.
                     </p>
 
                     <p>
-                        Published researcher in generative AI and space weather prediction with active open-source contributions. Currently pursuing B.E. Computer Engineering at PVGCOE, Nashik (GPA: 8.70) with graduation expected in 2026. President of PVGCOE Nashik, hosting events, workshops, and guest sessions.
+                        ISRO / IIRS certified in Python Geodata Processing (96% score, Top 1%) with proven expertise analyzing complex datasets across satellite telemetry streams and user engagement metrics for 100K+ platform users.
                     </p>
 
                     <p>
-                        My expertise spans PyTorch, TensorFlow, React Native, FastAPI, and geospatial technologies like GDAL and Sentinel-2 processing. I've developed impactful projects including FaceParser (published on PyPI), SolarSim for CME detection, and marine debris detection systems achieving 78% precision.
+                        Technical capabilities cover PyTorch, Hugging Face, QLoRA, Fine-Tuning, Scikit-Learn, SciPy, Pandas, NumPy, SQL (PostgreSQL, MySQL), Neo4j, LangGraph, FastAPI, Docker, and AWS (S3, EC2).
                     </p>
 
                     <p>
-                        My practical skills include AI/ML, space technology, and app development, with experience as a Machine Learning Engineer intern at CIT Internship Studio. I continue to explore emerging technologies, including Google’s Gemini AI, and am authoring a book titled "Life is All About 7 Minutes," inspired by spiritual philosophies. <br>
-                        Driven by curiosity and innovation, I aim to make a meaningful impact in software engineering and space technology while shaping the future of education and technology.
+                        Founder & Product Analytics Lead at BTechNotes (100K+ active users, 1M+ views), PyPI author of <em>FaceParser</em> and <em>TrainIQ</em>, and published research author ("Generative Architectural Design using Deep Learning", IJARSCT).
                     </p>
                 </div>
             </div>
@@ -163,11 +166,23 @@
                             <div class="timeline__bullet"></div>
                             <div class="timeline__header">
                                 <p class="timeline__timeframe">FEB 2026 - PRESENT</p>
-                                <h3 class="item-title">ISRO</h3>
-                                <h5>Machine Learning Engineer</h5>
+                                <h3 class="item-title">Physical Research Laboratory (PRL) / ISRO</h3>
+                                <h5>Project Trainee – Data Analytics & ML</h5>
                             </div>
                             <div class="timeline__desc">
-                                <p>Develop PyTorch neural networks for Semi-Gaussian signal parameter identification using low-sampling data, optimize architectures through comparative analysis, integrate IoT pipelines, and advance AI-driven space technology research for real-time signal classification.</p>
+                                <p>• Analyzed noisy satellite telemetry datasets using SciPy statistical processing, improving signal parameter extraction accuracy to 94.2% across raw orbital data streams.<br>
+                                • Engineered automated data ingestion and preprocessing pipelines for IoT space weather sensors, accelerating dataset throughput and reducing analytical latency by 3.2x.</p>
+                            </div>
+                        </div>
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">MAY 2026 - PRESENT</p>
+                                <h3 class="item-title">PGAGI</h3>
+                                <h5>AI/ML Intern</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>• Built and deployed API data microservices on AWS EC2 processing 50K+ daily analytics requests with sub-120ms response time and 99.9% pipeline reliability.</p>
                             </div>
                         </div>
                         <div class="timeline__block">
@@ -175,59 +190,25 @@
                             <div class="timeline__header">
                                 <p class="timeline__timeframe">AUG 2025 - JAN 2026</p>
                                 <h3 class="item-title">EaseMeMed</h3>
-                                <h5>LLMOps Engineer Intern</h5>
+                                <h5>Data & LLMOps Intern</h5>
                             </div>
                             <div class="timeline__desc">
-                                <p>Built PyTorch pipelines for object detection using transfer learning and augmentation, implemented reproducible ML workflows, mastered LLM architectures, and optimized inference pipelines, reducing latency and resource usage effectively.</p>
+                                <p>• Performed quantitative analysis and benchmarking across model inference logs, identifying bottlenecks to reduce memory footprint by 45% and latency by 68%.<br>
+                                • Built dynamic data transformation pipelines and automated MLOps data augmentation workflows, boosting multi-class classification mAP score to 89.4%.</p>
                             </div>
                         </div>
                         <div class="timeline__block">
                             <div class="timeline__bullet"></div>
                             <div class="timeline__header">
-                                <p class="timeline__timeframe">JAN 2025 - MAR 2025</p>
-                                <h3 class="item-title">Zensar Technologies</h3>
-                                <h5>AI Engineer Trainee</h5>
+                                <p class="timeline__timeframe">HONORS & LEADERSHIP</p>
+                                <h3 class="item-title">Key Achievements</h3>
+                                <h5>NASA Space Apps Global Winner | ISRO / IIRS Top 1%</h5>
                             </div>
                             <div class="timeline__desc">
-                                <p>Completed structured ML tasks on regression, classification, model tuning, and evaluation using metrics such as F1, ROC-AUC, and confusion matrices. Practiced feature engineering and model tuning on real-world style datasets with focus on explainability and business use.</p>
-                            </div>
-                        </div>
-                        <div class="timeline__block">
-                            <div class="timeline__bullet"></div>
-                            <div class="timeline__header">
-                                <p class="timeline__timeframe">SEP 2024 - OCT 2024</p>
-                                <h3 class="item-title">Internship Studio</h3>
-                                <h5><a href="https://github.com/jayeshpandey01/Machine-Learning">Machine Learning Engineer Intern</a></h5>
-                            </div>
-                            <div class="timeline__desc">
-                                <p>Built multi-class classification models in PyTorch for visual multi-object scenarios, profiling bottlenecks to reduce training time by about 20%. Implemented experiments comparing architectures, optimizers, and learning-rate schedules, logging metrics for objective comparison.</p>
-                            </div>
-                        </div>
-                        <div class="timeline__block">
-                            <div class="timeline__bullet"></div>
-                            <div class="timeline__header">
-                                <p class="timeline__timeframe">AUG 2024 - NOV 2025</p>
-                                <h3 class="item-title">GSSOC</h3>
-                                <h5><a href="https://github.com/jayeshpandey01?tab=repositories">Open Source AI Contributor</a></h5>
-                            </div>
-                            <div class="timeline__desc">
-                                <p>Contributing to NLP and Computer Vision modules across multiple open-source repositories, focusing on model performance and modular, maintainable code. Implementing data preprocessing, augmentation, and evaluation pipelines that make projects easier for new contributors to extend. Using Git, issues, and pull requests to collaborate asynchronously with maintainers and other contributors.</p>
-                            </div>
-                        </div>
-
-                        <div class="timeline__block">
-                            <div class="timeline__bullet"></div>
-                            <div class="timeline__header">
-                                <p class="timeline__timeframe">2023 - 2025</p>
-                                <h3 class="item-title">Hackathon Achievements</h3>
-                                <h5><strong>NASA Space Apps Challenge 2025 Global Winner</strong> | SIH 2025 Winner | PVG HackerHub 2025 Winner</h5>
-                            </div>
-                            <div class="timeline__desc">
-                                <p><strong>NASA Space Apps Challenge 2025:</strong> Global Winner for innovative space technology solution. <br>
-                                <strong>SIH 2025:</strong> Winner of Internal Hackathon with cutting-edge AI/ML solution. <br>
-                                <strong>PVG HackerHub 2025:</strong> Winner with innovative technical implementation. <br>
-                                <strong>GDG Hacktoberfest 2025:</strong> 2nd Runner Up for open-source contributions. <br>
-                                <strong>SIH 2023:</strong> Finalist for investigating vulnerabilities in crypto libraries for OpenVPN.</p>
+                                <p><strong>Global Winner – NASA Space Apps Challenge (2025):</strong> Awarded top global honors out of 90,000+ participants for statistical CME space weather prediction model.<br>
+                                <strong>ISRO / IIRS Certification:</strong> Graduated top 1% with 96% (A+) score in Geodata Processing using Python & ML.<br>
+                                <strong>Founder & Product Lead – BTechNotes:</strong> Analyzed web telemetry and user behavior logs for 100K+ active student users across 1M+ views.<br>
+                                <strong>PyPI Author:</strong> Published FaceParser and TrainIQ; created 89+ public GitHub repositories.</p>
                             </div>
                         </div>
 
@@ -244,36 +225,24 @@
                         <div class="timeline__block">
                             <div class="timeline__bullet"></div>
                             <div class="timeline__header">
-                                <p class="timeline__timeframe">Aug 2022 - June 2026</p>
-                                <h3 class="item-title">PVGCOE & SSDIOM, Nashik</h3>
-                                <h5>B.E. Computer Engineering — GPA: 8.70</h5>
+                                <p class="timeline__timeframe">AUG 2022 - JUNE 2026</p>
+                                <h3 class="item-title">PVG's College of Engineering (PVGCOE SSDIOM)</h3>
+                                <h5>Bachelor of Engineering (B.E.) in Computer Engineering — GPA: 8.70 / 10.0</h5>
                             </div>
                             <div class="timeline__desc">
-                                <p>Specializing in AI/ML, space technology, and full-stack development. Key coursework: Data Structures & Algorithms, Operating Systems, DBMS, Computer Networks, Artificial Intelligence, Machine Learning. President of PVGCOE Nashik student body.</p>
+                                <p>Specializing in Data Analytics, Exploratory Data Analysis (EDA), SQL Database Modeling, and Statistical Satellite Signal Processing.</p>
                             </div>
                         </div>
 
                         <div class="timeline__block">
                             <div class="timeline__bullet"></div>
                             <div class="timeline__header">
-                                <p class="timeline__timeframe">July 2020 - June 2022</p>
-                                <h3 class="item-title">Satish Pradhan Dnyanasadhana College</h3>
-                                <h5>Higher Education (HSC)</h5>
+                                <p class="timeline__timeframe">RESEARCH PUBLICATION</p>
+                                <h3 class="item-title">Generative Architectural Design using Deep Learning</h3>
+                                <h5>IJARSCT (Dec 2024)</h5>
                             </div>
                             <div class="timeline__desc">
-                                <p>At Satish Pradhan Dnyanasadhana College, I pursued my higher education in 11th and 12th grades with dedication and excellence. Immersed in a dynamic learning environment, I excelled academically, securing an A grade. The college provided a supportive atmosphere and comprehensive curriculum, fostering my intellectual growth and preparing me for future challenges.</p>
-                            </div>
-                        </div>
-
-                        <div class="timeline__block">
-                            <div class="timeline__bullet"></div>
-                            <div class="timeline__header">
-                                <p class="timeline__timeframe">July 2007 - June 2019</p>
-                                <h3 class="item-title">HOFEHS</h3>
-                                <h5>School (L.Kg to SSC)</h5>
-                            </div>
-                            <div class="timeline__desc">
-                                <p>HOFEHS, a renowned educational institution in Mumbai, offers a comprehensive journey from L.KG to 10th grade. With a commitment to academic excellence and holistic development, it provides a supportive environment where students thrive intellectually and socially. Experienced faculty, modern facilities, and a rich curriculum ensure a well-rounded education for every student.</p>
+                                <p>Authored peer-reviewed research paper exploring deep learning techniques for automated generative architectural design and layout generation.</p>
                             </div>
                         </div>
 
@@ -297,7 +266,7 @@
                 <h2 class="section-heading section-heading--centerbottom">Capabilities</h2>
 
                 <p class="section-desc">
-                    NASA Space Apps Challenge 2025 Global Winner | AI/ML Engineering | Space Technology | Geospatial Intelligence
+                    Data Analytics & Statistics | Machine Learning & Modeling | Developer Tools & Cloud
                 </p>
             </div>
         </div> <!-- end heading-block -->
@@ -306,54 +275,54 @@
 
             <div class="column item-service" data-aos="fade-up">
                 <div class="item-service__content">
-                    <h4 class="item-title">AI/ML & GenAI Engineering</h4>
+                    <h4 class="item-title">Data Analytics & Statistics</h4>
                     <p>
-                        Expert in PyTorch, TensorFlow, LLMs (Llama 3.2, RAG, Quantization via bitsandbytes/GGUF), and deep learning architectures including CNN, LSTM, Transformers, and GANs. Proficient in vLLM, LangChain, LangGraph, and deploying scalable ML solutions for production.
+                        SQL (PostgreSQL, MySQL), Exploratory Data Analysis (EDA), Hypothesis Testing, A/B Testing, SciPy statistical analysis, and satellite telemetry stream processing.
                     </p>
                 </div>
             </div>
 
             <div class="column item-service" data-aos="fade-up">
                 <div class="item-service__content">
-                    <h4 class="item-title">Space Technology</h4>
+                    <h4 class="item-title">Data Manipulation & Viz</h4>
                     <p>
-                        NASA Space Apps Challenge 2025 Global Winner with expertise in space weather prediction, CME detection using Aditya-L1 and SOHO satellite data, and geospatial intelligence for space applications.
+                        Python, Pandas, NumPy, Data Cleaning, Matplotlib, Seaborn, Feature Engineering, and quantitative profiling.
                     </p>
                 </div>
             </div>
 
             <div class="column item-service" data-aos="fade-up">
                 <div class="item-service__content">
-                    <h4 class="item-title">Geospatial Analysis</h4>
+                    <h4 class="item-title">Machine Learning & Modeling</h4>
                     <p>
-                        Proficient in remote sensing, multi-temporal change detection, Sentinel-2 & Landsat processing, glacial lake and road extraction using GDAL, GeoPandas, and advanced geospatial tooling.
+                        PyTorch, Hugging Face, QLoRA Parameter-Efficient Fine-Tuning, Scikit-Learn, Predictive Modeling, and Time-Series Analysis.
                     </p>
                 </div>
             </div>
 
             <div class="column item-service" data-aos="fade-up">
                 <div class="item-service__content">
-                    <h4 class="item-title">Full-Stack Development</h4>
+                    <h4 class="item-title">Developer Tools & Cloud</h4>
                     <p>
-                        Expert in React Native, FastAPI, Express.js, Node.js with experience in building scalable applications. Published Python packages on PyPI and developed cross-platform mobile applications.
+                        Git, Linux, Docker, PostgreSQL, MongoDB, FastAPI, AWS (S3, EC2), Jupyter Notebooks, and scalable microservices.
                     </p>
                 </div>
             </div>
 
             <div class="column item-service" data-aos="fade-up">
                 <div class="item-service__content">
-                    <h4 class="item-title">Research & Publications</h4>
+                    <h4 class="item-title">Graph Analytics & LLMOps</h4>
                     <p>
-                        Published researcher in generative AI and space weather prediction. Authored papers on architectural design using deep learning and CME detection using satellite data, with work under review in peer-reviewed venues.
+                        Knowledge Graph relational modeling in Neo4j, SQL query optimization, LangGraph agents, model benchmarking, and memory reduction.
                     </p>
                 </div>
             </div>
 
             <div class="column item-service" data-aos="fade-up">
                 <div class="item-service__content">
-                    <h4 class="item-title">Open Source Contribution</h4>
+                    <h4 class="item-title">Product Analytics & Open Source</h4>
                     <p>
-                        Active contributor to AI/ML repositories with focus on NLP and Computer Vision modules. Published FaceParser library on PyPI for facial feature parsing using BiSeNet architecture with GPU acceleration.
+                        Web telemetry tracking for 100K+ active users, PyPI package maintenance (FaceParser, TrainIQ), and 89+ public GitHub repositories.
                     </p>
                 </div>
             </div>
@@ -371,8 +340,7 @@
             <div class="column large-full">
                 <h2 class="section-heading section-heading--centerbottom">Selected Works</h2>
                 <p class="section-desc">
-                    Here are some of my selected works I have done lately. Feel free to 
-                    check them out.
+                    Highlighted projects from recent research, open-source models, and data analytics pipelines.
                 </p>
             </div>
         </div> <!-- end heading-block -->
@@ -381,12 +349,84 @@
 
             <div class="masonry">
                 <div class="grid-sizer"></div>
-    
+
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio" style="border-radius: 20px;">
                         <div class="item-folio__thumb">
-                            <a href="/images/chatbot.png" class="thumb-link" title="FaceParser" data-size="1050x700">
-                                <img src="/images/chatbot.png" alt="">
+                            <a href="/images/ekip_bhaskar_opt.jpg" class="thumb-link" title="Ekip Bhaskar" data-size="1050x700">
+                                <img src="/images/ekip_bhaskar_opt.jpg" alt="Ekip Bhaskar" loading="lazy" decoding="async">
+                            </a>    
+                            <a href="https://github.com/jayeshpandey01/Ekip_Bhaskar_CME_Event" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+    
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Ekip Bhaskar – Orbital Data Analytics Pipeline
+                            </h4>
+                            <p class="item-folio__cat">
+                                NASA Space Apps Global Winner
+                            </p>
+                        </div>
+    
+                        <div class="item-folio__caption">
+                            <p>Executed exploratory data analysis (EDA) and anomaly detection on Aditya-L1 solar payload telemetry, achieving 84.0% signal detection accuracy across raw space environment data streams. Built using Python, Pandas, and SciPy.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio" style="border-radius: 20px;">
+                        <div class="item-folio__thumb">
+                            <a href="/images/qlora_cybersecurity_opt.jpg" class="thumb-link" title="QLoRA Cybersecurity" data-size="1050x700">
+                                <img src="/images/qlora_cybersecurity_opt.jpg" alt="QLoRA Cybersecurity" loading="lazy" decoding="async">
+                            </a>    
+                            <a href="https://github.com/jayeshpandey01" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+    
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                QLoRA Cybersecurity Analytics Classifier
+                            </h4>
+                            <p class="item-folio__cat">
+                                Open-Source Analytics Model
+                            </p>
+                        </div>
+    
+                        <div class="item-folio__caption">
+                            <p>Fine-tuned a quantized LLM on specialized threat data using QLoRA parameter-efficient optimization, reducing memory overhead by 75% while achieving high-precision classification over complex security log streams. Built using PyTorch, QLoRA, and Hugging Face.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio" style="border-radius: 20px;">
+                        <div class="item-folio__thumb">
+                            <a href="/images/graph_knowledge_opt.jpg" class="thumb-link" title="Graph Knowledge Analytics Engine" data-size="1050x700">
+                                <img src="/images/graph_knowledge_opt.jpg" alt="Graph Knowledge Analytics Engine" loading="lazy" decoding="async">
+                            </a>    
+                            <a href="https://github.com/jayeshpandey01/Graph-Based-Query-System" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+    
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Graph-Based Knowledge Analytics Engine
+                            </h4>
+                            <p class="item-folio__cat">
+                                Graph Data Analytics
+                            </p>
+                        </div>
+    
+                        <div class="item-folio__caption">
+                            <p>Designed structured query pipelines and Knowledge Graph relational models in Neo4j, improving relational data retrieval precision by 52% over baseline vector search mechanisms. Built with Neo4j, SQL, and LangGraph.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio" style="border-radius: 20px;">
+                        <div class="item-folio__thumb">
+                            <a href="/images/chatbot_opt.jpg" class="thumb-link" title="FaceParser" data-size="1050x700">
+                                <img src="/images/chatbot_opt.jpg" alt="FaceParser" loading="lazy" decoding="async">
                             </a>    
                             <a href="https://pypi.org/project/faceparser/" class="item-folio__project-link" title="Project link" target="_blank"></a>
                         </div>
@@ -396,200 +436,40 @@
                                 FaceParser: Face Parsing Library
                             </h4>
                             <p class="item-folio__cat">
-                                Python library for facial feature parsing using BiSeNet architecture, supporting segmentation of 19+ facial regions with GPU acceleration. Published on PyPI.
+                                PyPI Python Package
                             </p>
                         </div>
     
                         <div class="item-folio__caption">
-                            <p>Python, PyTorch, OpenCV, CUDA, NumPy, BiSeNet Architecture</p>
+                            <p>Python library for facial feature parsing using BiSeNet architecture, supporting segmentation of 19+ facial regions with GPU acceleration. Published on PyPI.</p>
                         </div>
                     </div>
                 </div> <!-- end masonry__brick -->
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio" style="border-radius: 20px;">
-                        <div class="item-folio__thumb">
-                            <a href="/images/voice assistance.png" class="thumb-link" title="SolarSim" data-size="1050x700">
-                                <img src="/images/voice assistance.png" alt="">
-                            </a>    
-                            <a href="https://github.com/jayeshpandey01/SolarSim" class="item-folio__project-link" title="Project link" target="_blank"></a>
-                        </div>
-    
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                SolarSim: Advanced CME Detection
-                            </h4>
-                            <p class="item-folio__cat">
-                                Deep learning system for detecting Coronal Mass Ejections (CMEs) using Aditya-L1 and SOHO satellite data, with desktop interface for space weather prediction.
-                            </p>
-                        </div>
-    
-                        <div class="item-folio__caption">
-                            <p>PyTorch, CNN-LSTM Architecture, Aditya-L1 Data, SOHO Data, Tkinter GUI, Space Weather Prediction</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio" style="border-radius: 20px;">
-                        <div class="item-folio__thumb">
-                            <a href="/images/hackaton.png" class="thumb-link" title="Swap Health" data-size="1050x700"></a>
-                                <img src="/images/hackaton.png" alt="">
-                            </a>    
-                            <a href="https://github.com/jayeshpandey01/SwapHealth" class="item-folio__project-link" title="Project link" target="_blank"></a>
-                        </div>
-    
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Swap Health – AI Fitness & Health App
-                            </h4>
-                            <p class="item-folio__cat">
-                                React Native application combining pose estimation and AI assistance to guide users through workouts with real-time feedback on 25+ exercise types.
-                            </p>
-                        </div>
-    
-                        <div class="item-folio__caption">
-                            <p>React Native, FastAPI, MediaPipe, Hugging Face, REST APIs, Pose Estimation, AI Chatbot</p>
-                        </div>
-                    </div>
-                </div>
-                
 
                 <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
+                    <div class="item-folio" style="border-radius: 20px;">
                         <div class="item-folio__thumb">
-                            <a href="/images/educational website.png" class="thumb-link" title="Btechnotes" data-size="1050x700">
-                                <img src="images/educational website.png" alt="">
+                            <a href="/images/btechnotes_opt.jpg" class="thumb-link" title="Btechnotes" data-size="1050x700">
+                                <img src="/images/btechnotes_opt.jpg" alt="Btechnotes" loading="lazy" decoding="async">
                             </a>
                             <a href="https://msha.ke/btechnotes" class="item-folio__project-link" title="Project link" target="_blank"></a>
                         </div>
                         <div class="item-folio__text">
                             <h4 class="item-folio__title">
-                                Btechnotes
+                                BTechNotes Analytics Platform
                             </h4>
                             <p class="item-folio__cat">
-                                Web Design
+                                Product & Web Analytics
                             </p>
                         </div>
                         <div class="item-folio__caption">
-                            <p>High-impact educational platform targeting engineering students, reaching 1M+ views in the first year. Built and maintained end-to-end including deployment, content structuring, and performance optimization.</p>
-                        </div>
-                    </div>
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                            
-                        <div class="item-folio__thumb">
-                            <a href="/images/portfolio.png" class="thumb-link" title="Graph-Based-Query-System" data-size="1050x700">
-                                <img src="/images/portfolio.png" alt="">
-                            </a>
-                            <a href="https://github.com/jayeshpandey01/Graph-Based-Query-System" class="item-folio__project-link" title="Project link" target="_blank"></a>
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Graph-Based-Query-System
-                            </h4>
-                            <p class="item-folio__cat">
-                                AI Knowledge Graph
-                            </p>
-                        </div>
-                        <div class="item-folio__caption">
-                            <p>Full-stack intelligent dashboard for Order-to-Cash data. Automatically builds a Neo4j knowledge graph from JSONL documents and enables natural language queries via a safe LangGraph + LLM agent.</p>
-                        </div>
-                    </div>
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a href="/images/portfolio.png" class="thumb-link" title="Geospatial Detection" data-size="1050x700">
-                                <img src="/images/portfolio.png" alt="">
-                            </a>
-                            <a href="https://github.com/jayeshpandey01" class="item-folio__project-link" title="Project link" target="_blank"></a>
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Automated Geospatial Feature Detection
-                            </h4>
-                            <p class="item-folio__cat">
-                                Geospatial AI, Remote Sensing
-                            </p>
-                        </div>
-                        <div class="item-folio__caption">
-                            <p>Developed semantic segmentation and change detection models using GDAL on Sentinel-2/Landsat imagery; built React Native mobile app for real-time visualization of glacial lakes and roads.</p>
+                            <p>Analyzed web telemetry and user behavior logs for 100K+ active student users across 1M+ views to optimize platform performance and content delivery.</p>
                         </div>
                     </div>
                 </div> <!-- end masonry__brick -->
 
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio" style="border-radius: 20px;">
-                        <div class="item-folio__thumb">
-                            <a href="/images/portfolio.png" class="thumb-link" title="Marine Debris Detection" data-size="1050x700">
-                                <img src="/images/portfolio.png" alt="">
-                            </a>    
-                            <a href="https://github.com/jayeshpandey01/marine-debris-detection" class="item-folio__project-link" title="Project link" target="_blank"></a>
-                        </div>
-    
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Marine Debris Detection (PlanetScope)
-                            </h4>
-                            <p class="item-folio__cat">
-                                Deep learning model for detecting marine debris from PlanetScope satellite imagery achieving 78% precision and 70% recall for ocean cleanup monitoring.
-                            </p>
-                        </div>
-    
-                        <div class="item-folio__caption">
-                            <p>TensorFlow, PlanetScope Imagery, Object Detection, Satellite Image Processing, Environmental Monitoring</p>
-                        </div>
-                    </div>
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a href="/images/portfolio.png" class="thumb-link" title="Ekip Bhaskar CME" data-size="1050x700">
-                                <img src="/images/portfolio.png" alt="">
-                            </a>
-                            <a href="https://github.com/jayeshpandey01/Ekip_Bhaskar_CME_Event" class="item-folio__project-link" title="Project link" target="_blank"></a>
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Ekip Bhaskar – CME Early Warning
-                            </h4>
-                            <p class="item-folio__cat">
-                                Space Weather AI
-                            </p>
-                        </div>
-                        <div class="item-folio__caption">
-                            <p>AI-driven early warning system for Halo CMEs using ISRO's Aditya-L1 SWIS data. Achieves 84% accuracy, validated against CACTUS database, with kinematic modeling and React Native mobile visualization.</p>
-                        </div>
-                    </div>
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a href="/images/portfolio.png" class="thumb-link" title="Lunar Crater Detection" data-size="1050x700">
-                                <img src="/images/portfolio.png" alt="">
-                            </a>
-                            <a href="https://github.com/jayeshpandey01/MOON" class="item-folio__project-link" title="Project link" target="_blank"></a>
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Lunar Crater Detection
-                            </h4>
-                            <p class="item-folio__cat">
-                                Satellite Image Processing
-                            </p>
-                        </div>
-                        <div class="item-folio__caption">
-                            <p>End-to-end ML pipeline for lunar surface feature detection using LRO/Chandrayaan datasets. Covers data prep, CNN+FPN model training, experiment tracking, and production-ready model artifacts.</p>
-                        </div>
-                    </div>
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
                         <div class="item-folio__thumb">
                             <a href="/images/portfolio.png" class="thumb-link" title="TrainIQ" data-size="1050x700">
                                 <img src="/images/portfolio.png" alt="TrainIQ">
@@ -598,18 +478,17 @@
                         </div>
                         <div class="item-folio__text">
                             <h4 class="item-folio__title">
-                                TrainIQ — Universal ML/DL Library
+                                TrainIQ — Universal ML Data Utility
                             </h4>
                             <p class="item-folio__cat">
-                                End-to-end ML/DL pipelines with a single call. Auto model selection, hyperparameter tuning via Optuna, and deployment scaffolding for tabular, image, text, and time-series data.
+                                PyPI Python Package
                             </p>
                         </div>
                         <div class="item-folio__caption">
-                            <p>PyTorch, TensorFlow, XGBoost, BERT, ResNet, Optuna, ONNX, FastAPI, Ollama, HuggingFace LLMs</p>
+                            <p>End-to-end ML data and model utility package supporting automated preprocessing, hyperparameter optimization, and deployment scaffolding across tabular and image pipelines.</p>
                         </div>
                     </div>
                 </div> <!-- end masonry__brick -->
-
                 
             </div> <!-- end masonry -->
 
@@ -668,8 +547,8 @@
     <footer>
         <div class="row">
             <div class="column large-full ss-copyright">
-                
-                <span>Design by <a href="https://www.instagram.com/pandey_jayesh_/">@pandey_jayesh_</a></span>
+                <span>© 2026 Jayesh J. Pandey — NASA Space Apps Global Winner | Data Analytics & ML</span>
+                <span>Designed & Developed by <a href="https://linkedin.com/in/pandey-jayesh" target="_blank">Jayesh J. Pandey</a></span>
             </div>            
 
             <div class="ss-go-top">
